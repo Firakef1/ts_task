@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Todo App</h1>
+    </header>
+
+    <main id="main">
+
+        <form id="input_form">
+
+            <label for="task_name" class="input_label">
+                Task Input
+                <input type="text" id="task_name" placeholder="task" class="input" required>
+            </label>
+
+            <label for="time_and_date" class="input_label">
+                Date and Time
+                <input type="datetime-local" id="time_and_date" class="input" required>
+            </label>
+
+            <button type="button" id="btn">Add task</button>
+
+        </form>
+
+    </main>
+</body>
+<script src="/dist/index.js"></script>
+</html>
