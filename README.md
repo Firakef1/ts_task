@@ -21,6 +21,19 @@ Used to add interactivity and core functionality such as adding, editing, and de
 
 ## 🚀 How to Use
 ---
+
+### 🧪 How to Run the Project
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Firakef1/ts_task
+   cd ts_task
+
+2. Install dependencies:
+    ```bash
+    npm install
+
+
 - After opening the app you will see this page
 
 ![main page](images/Screenshot%20(127).png)
